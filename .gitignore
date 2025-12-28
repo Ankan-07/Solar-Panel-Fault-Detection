@@ -1,0 +1,34 @@
+# User-specific / Sensitive
+.env
+
+# Large Files (GitHub limit is 100MB)
+*.h5
+*.pkl
+*.pth
+*.joblib
+
+# Datasets (Uncomment if dataset is too large for GitHub)
+# Faulty_solar_panel/
+# *.csv
+
+# Python/Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Tool-specific
+.gradio/
+.agent/
+.vscode/
+
+# Temporary utility scripts
+add_metrics.py
+fix_error.py
+update_notebook.py
